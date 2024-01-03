@@ -22,6 +22,7 @@ printf("enter the element to insert:");
 scanf("%d",&new_element);
 for(i=n; i>=pos-1; i--)
 {
+ 
  a[i]=a[i-1];
 
 }
